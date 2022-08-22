@@ -1,0 +1,15 @@
+@import "styles/reset.css";
+
+@import "styles/page.css";
+@import "styles/header.css";
+@import "styles/hero.css";
+@import "styles/footer.css";
+
+:root {
+  --color-violet: hsl(257, 40%, 49%);
+  --color-soft-magenta: hsl(300, 69%, 71%);
+  --color-white: hsl(0, 0%, 100%);
+  --font-base: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-heading: 'Poppins', var(--font-base);
+  --font-body: 'Open Sans', var(--font-base);
+}

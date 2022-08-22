@@ -1,0 +1,52 @@
+.page {
+  background-color: var(--color-violet);
+  background-image: url("/src/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page__icons {
+  display: none;
+}
+
+.page__container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2.5rem 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .page__container {
+    max-width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page__container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page__container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    background-image: url("/src/images/bg-desktop.svg");
+  }
+
+  .page__container {
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 1280px;
+    padding: 4rem 2rem;
+  }
+}
